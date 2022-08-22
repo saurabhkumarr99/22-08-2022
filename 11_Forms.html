@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            text-align: center;
+            font-size: 30p;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Student Registration Form</h1>
+
+    <form action="">
+        <fieldset>
+            <legend>Student Personal Information</legend>
+            <label>First name:</label>
+            <input type="text"><br>
+            <label for="lname">Last name:</label>
+            <input type="text"><br>
+            <label for="lname">DOB:</label>
+            <input type="date"><br>
+            <label for="lname">Gender:</label>
+            Male<input type="radio" name="gender" value="male">
+            Female<input type="radio" name="gender" value="female"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Parent:</legend>
+            <label>Father name:</label>
+            <input type="text">
+            <label for="email">Father email id:</label>
+            <input type="email" id="email" name="email"><br>
+            <label>Mother name:</label>
+            <input type="text"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Student Subject:</legend>
+            <select id="subject">
+                <option value="Hindi">Hindi</option>
+                <option value="Maths" selected>Maths</option>
+                <option value="Biology">Biology</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Physical">Physical</option>
+                </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Other Information:</legend>
+            <textarea name="message" rows="10" cols="30"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+
+</html>

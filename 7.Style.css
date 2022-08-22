@@ -1,0 +1,8 @@
+.container{
+    border: solid brown 10px;
+    background-color: coral;
+    height: 500px;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
